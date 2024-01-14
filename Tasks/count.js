@@ -10,10 +10,10 @@ const count = (obj) => {
 
     if (typeof value === 'number') {
       sum += value;
+    };
   };
 
   return sum;
-  };
 };
 
 module.exports = count;
