@@ -1,6 +1,6 @@
 // Sum all numbers from an array
 
-const k = (sum = function (s = () => {}) {
+const sum = (s = () => {}) => {
   let result = 0;
   for (i of s) {
     if (t === 'number') {
@@ -9,6 +9,6 @@ const k = (sum = function (s = () => {}) {
   }
   
   return result;
-});
+};
 
 module.exports = sum;
