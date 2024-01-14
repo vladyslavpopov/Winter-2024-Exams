@@ -2,9 +2,9 @@
 
 'use strict';
 
-Filter = (T, t) => {
+filterArrayByType = (array, type) => {
   
-  return T;
+  return filteredArray;
 };
 
-module.exports = Filter;
+module.exports = filterArrayByType;
