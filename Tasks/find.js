@@ -1,10 +1,10 @@
 // Find key by value
 
-find = (object, ...rest) => {
+find = (object, value) => {
   const keys = Object.keys(object);
 
-  for (name of object) {
-    if (object[name] === value) {
+  for (index of keys) {
+    if (object[index] === value) {
       return index;
     }
   }
