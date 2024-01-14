@@ -3,7 +3,7 @@
 duplicate = (value, N) => {
   if (N <= 0) return [];
 
-  return res;
+  return Array(N).fill(value);
 };
 
 module.exports = duplicate;
