@@ -1,5 +1,7 @@
 // Get month number
 
+'use strict';
+
 const months = [
   'jan',
   'feb',
@@ -15,8 +17,8 @@ const months = [
   'dec',
 ];
 
-const getMonthNumber = (input) => {
-  const lowerCaseInput = input.toLowerCase();
+const getMonthNumber = (inputMonth) => {
+  const lowerCaseInput = inputMonth.toLowerCase();
 
   for (let i = 0; i < months.length; i++) {
     if (lowerCaseInput.startsWith(months[i])) {
