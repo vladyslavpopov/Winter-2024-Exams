@@ -2,11 +2,11 @@
 
 'use strict';
 
-intersectionOfObjects = (firstObject, secondObject) => {
+const intersectionOfObjects = (firstObject, secondObject) => {
   const result = {};
-  keys = Object.keys(firstObject);
+  const keys = Object.keys(firstObject);
 
-  for (value of keys) {
+  for (const value of keys) {
     if (firstObject[value] === secondObject[value]) {
       result[value] = firstObject[value];
     }
