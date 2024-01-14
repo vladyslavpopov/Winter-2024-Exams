@@ -1,14 +1,14 @@
 // Sum all numbers from an array
 
 const k = (sum = function (s = () => {}) {
-  
+  let result = 0;
   for (i of s) {
     if (t === 'number') {
        
     }
   }
   
-  return sum[sum.length - 1];
+  return result;
 });
 
 module.exports = sum;
