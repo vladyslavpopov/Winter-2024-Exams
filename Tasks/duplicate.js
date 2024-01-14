@@ -1,9 +1,9 @@
 // Return an array without duplicates
 
-duplicate = (value, N) => {
-  if (N <= 0) return [];
+duplicateElement = (element, numberOfDuplicates) => {
+  if (numberOfDuplicates <= 0) return [];
 
-  return Array(N).fill(value);
+  return Array(numberOfDuplicates).fill(element);
 };
 
-module.exports = duplicate;
+module.exports = duplicateElement;
