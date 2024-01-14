@@ -1,6 +1,6 @@
 // Find an intersection of two dictionaries
 
-intersectionOfObjects = function intersection(firstObject, secondObject) {
+intersectionOfObjects = (firstObject, secondObject) => {
   const result = {};
   keys = Object.keys(firstObject);
 
