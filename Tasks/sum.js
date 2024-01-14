@@ -1,10 +1,11 @@
 // Sum all numbers from an array
 
-const sum = (s = () => {}) => {
+const sum = (arrayOfNumbers = () => {}) => {
   let result = 0;
-  for (i of s) {
-    if (t === 'number') {
-       
+
+  for (const value of arrayOfNumbers) {
+    if (typeof value === 'number') {
+      result += value;
     }
   }
   
