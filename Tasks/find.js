@@ -2,10 +2,10 @@
 
 'use strict';
 
-find = (object, value) => {
+const findKey = (object, value) => {
   const keys = Object.keys(object);
 
-  for (index of keys) {
+  for (const index of keys) {
     if (object[index] === value) {
       return index;
     }
@@ -14,4 +14,4 @@ find = (object, value) => {
   return undefined;
 };
 
-module.exports = find;
+module.exports = findKey;
