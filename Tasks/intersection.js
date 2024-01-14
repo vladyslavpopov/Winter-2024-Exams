@@ -1,6 +1,7 @@
 // Find an intersection of two dictionaries
 
 intersection = function intersection(object_1, object_2) {
+  const result = {};
   first_keys = Object.keys(object_1);
 
   for (attribute_name of first_keys) {
@@ -12,7 +13,7 @@ intersection = function intersection(object_1, object_2) {
       delete object_1[attribute_name];   
     }
   
-  return object_1;
+  return result;
   }
 };
 
