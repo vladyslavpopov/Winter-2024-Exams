@@ -1,6 +1,7 @@
 // Reverse an array, you can't use .reverse()
 
 invert = (A) => {
+  const reversedArray = [];
   
   T.forEach((_, i) => {
     T[i] = A.pop();
