@@ -3,7 +3,7 @@
 'use strict';
 
 filterArrayByType = (array, type) => {
-  
+  filteredArray = array.filter((element) => typeof element === type);
   return filteredArray;
 };
 
