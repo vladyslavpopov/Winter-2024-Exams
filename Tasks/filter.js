@@ -2,8 +2,8 @@
 
 'use strict';
 
-filterArrayByType = (array, type) => {
-  filteredArray = array.filter((element) => typeof element === type);
+const filterArrayByType = (array, type) => {
+  const filteredArray = array.filter((element) => typeof element === type);
   return filteredArray;
 };
 
